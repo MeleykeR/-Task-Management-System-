@@ -1,0 +1,8 @@
+# example of class using constructor, without using BaseModel
+class Task:
+    def __init__(self, id: int, task_name: str, task_code: str, hours_estimated: int, priority: int = None):
+        self.id = id  # Unique identifier for the task
+        self.task_name = task_name  # The name of the task
+        self.task_code = task_code  # Unique code to identify the task
+        self.hours_estimated = hours_estimated  # Estimated hours for completion
+        self.priority = priority  # Optional: priority of the task (can be numeric or categorical)
