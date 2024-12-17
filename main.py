@@ -6,6 +6,8 @@ from contextlib import asynccontextmanager
 # Database initialization
 from helpers.db import DB
 
+from models.manager import Manager
+
 # Import services
 from services.users import Users
 from services.managers import Managers
